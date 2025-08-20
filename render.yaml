@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: supabase-dashboard-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
